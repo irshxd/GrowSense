@@ -1,0 +1,8 @@
+{
+  "temperature": 25.5,
+  "humidity": 60,
+  "soilMoisture": 35,  
+  "lightIntensity": 4800,
+  "soilPh": 6.4,
+  "nutrientLevel": 700
+}
