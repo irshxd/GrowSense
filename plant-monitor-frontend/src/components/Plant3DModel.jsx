@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 // This component will now display a static 2D generated image as a placeholder for the 3D plant model.
 export default function Plant3DModel() {
   // Use a direct state for the image source, initially pointing to the local 'plant.avif' file.
-  const [currentImageSrc, setCurrentImageSrc] = useState("/plant.png");
+  const [currentImageSrc, setCurrentImageSrc] = useState("https://png.pngtree.com/png-clipart/20250307/original/pngtree-an-image-of-a-basil-plant-in-small-terracotta-pot-png-image_20594084.png");
   
   // A truly robust fallback from a different, widely available service, just in case the primary URL is blocked.
   const ultimateFallbackSrc = "https://via.placeholder.com/800x600/cccccc/333333?text=Image+Unavailable";
